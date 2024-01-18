@@ -28,27 +28,6 @@ nav p a{
     text-decoration: none;
     color:black;
 }
-.btm{
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap:13px;
-    margin-right:20px;
-    flex:1;
-}
-
-.btm *{
-    padding:5px;
-    background-color: black;
-    color:aliceblue;
-    border-radius: 5px;
-    box-shadow: none;
-    border:none;
-}
-
-main > *{
-    border:1px solid red;
-}
 
 .intro{
     text-align: center;
@@ -58,7 +37,7 @@ main > *{
 .intro h1{
     max-width:30ch;
     font-size: 50px;
-    /* border:1px solid red; */
+    
     margin:0 auto;
     line-height:1.2;
     letter-spacing: -0.09rem;
@@ -72,33 +51,41 @@ main > *{
 
 
 
-.price.text{
-    max-width:45ch;
+.price-intro{
+    max-width:34ch;
     padding-bottom:20px;
-    line-height: 1.6;
-    margin-left:30px;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+    font-size:1.4rem;
+    color:#000;
+}
+
+
+.price-intro p{
+    margin-top:0.3rem;
+   font-size:0.7rem;
 }
 
 .box{
     flex:2;
     background-color: black;
     color:aliceblue;
-    padding:19px;
-    border-radius: 7px;
-    line-height: 2;
+    padding:2rem;
+    border-radius: 10px;
+    line-height: 1.4;
 }
 
-.price-intro, .box ul{
-    font-size:12px;
-}
 
 .box button{
-   display: block;
-   margin: 0 auto;
+    width:100%;
+    margin: 0 auto;
+    border-radius: 500000px;
+    padding:0.5rem 1rem;
+    margin:2rem 0;
 }
 
 .price{
-    font-size:30px;
+    font-size:3rem;
     font-weight: 600;
 }
 
@@ -107,8 +94,17 @@ main > *{
     font-weight: 300;
 }
 
-.features-intro{
+.pricing-module{
+    display:flex;
+    gap:2rem;
+}
 
+.pricing-feature{
+    color:#ccc;
+}
+
+.features-intro{
+    font-size: 0.7rem;
     text-align: center;
     max-width: 40ch;
     margin: 80px auto 0;
@@ -155,4 +151,15 @@ main > *{
 .container{
     width:90%;
     margin:0 auto;
+}
+.btm{
+background-color: #000;
+color:#fff;
+padding:0.4rem;
+border-radius: 17px;
+border:1px solid aliceblue;    
+}
+
+.learn.btm{
+    text-decoration: none;
 }
