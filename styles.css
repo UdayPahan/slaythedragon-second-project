@@ -123,7 +123,7 @@ nav p a{
 }
 
 .box{
-    flex:2;
+    flex:1;
     background-color: black;
     color:aliceblue;
     padding:2rem;
