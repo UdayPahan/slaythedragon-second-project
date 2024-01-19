@@ -113,17 +113,12 @@ nav p a{
     margin-top:0.3rem;
    font-size:0.7rem;
 }
-
-@media (max-width:425px) {
-    .price-intro h2{
-        font-size:0.8rem;
-    }
-
-    .price-intro p{
-        font-size:0.4rem;
-    }
+.price{
+    font-size:3rem;
+    font-weight: 600;
+    /* border:1px solid red; */
 }
-/*
+
 .box{
     flex:2;
     background-color: black;
@@ -131,6 +126,7 @@ nav p a{
     padding:2rem;
     border-radius: 10px;
     line-height: 1.4;
+    min-width:400px;
 }
 
 
@@ -142,25 +138,51 @@ nav p a{
     margin:2rem 0;
 }
 
-.price{
-    font-size:3rem;
-    font-weight: 600;
-}
 
 .price-header{
-    font-size:20px;
+    font-size:1.25rem;
     font-weight: 300;
 }
 
 .pricing-module{
     display:flex;
     gap:2rem;
+    border:1px solid red;
+
 }
 
 .pricing-feature{
     color:#ccc;
 }
 
+
+@media (max-width:425px) {
+    .price-intro h2{
+        font-size:0.8rem;
+    }
+    
+    .price-intro p{
+        font-size:0.4rem;
+    }
+    .pricing-module{
+        flex-wrap:wrap;
+        gap:0.5rem;
+
+    }
+    
+    .price{
+        font-size:1.5rem;
+    }
+    .price-header{
+        font-size:1rem;
+    }
+
+    .price-desc{
+        font-size:0.5rem;
+    }
+}
+
+/*
 .features-intro{
     font-size: 0.7rem;
     text-align: center;
